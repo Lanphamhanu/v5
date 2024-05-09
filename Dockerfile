@@ -1,5 +1,5 @@
 # Use the official Windows Nano Server image
-FROM mcr.microsoft.com/windows/nanoserver:ltsc2019
+FROM mcr.microsoft.com/windows/servercore:ltsc2019
 
 # Download and install Chocolatey
 RUN powershell -Command \
